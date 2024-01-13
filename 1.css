@@ -35,6 +35,9 @@ div.jieshao{
 div.jieshao h2{
     text-align: center;
 }
+div.jieshao h3{
+    text-align: center;
+}
 div.jieshao p{
     margin-top: 25px;
     width: 600px;
@@ -44,6 +47,12 @@ div.jieshao p a{
     line-height: 30px;
 }
 div.zp p{
+    text-align: center;
+}
+div.zp h4{
+    text-align: center;
+}
+h5{
     text-align: center;
 }
 /*自我介绍结束*/
