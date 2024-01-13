@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    border: 0;
+}
+/*导航条开始*/
+.nav-bar {  
+    list-style-type: none; /* 移除默认的列表样式 */  
+    margin: 0; /* 重置外边距 */  
+    padding: 0; /* 重置内边距 */  
+    display: flex; /* 使用Flexbox布局 */  
+    justify-content: center; /* 水平居中 */  
+
+  }  
+    
+  .nav-bar li {  
+    margin: 0 10px; /* 可选：给列表项添加左右外边距 */  
+  }  
+    
+  .nav-bar li a {  
+    color: white; /* 链接文字颜色 */  
+    text-decoration: none; /* 移除下划线 */  
+    padding: 10px; /* 可选：给链接添加内边距 */  
+    color: black; 
+    border-radius: 5px; /* 可选：添加圆角 */  
+  }  
+    
+  .nav-bar li a:hover {  
+    background-color: #7e76db; /* 可选：鼠标悬停时的背景色 */  
+  }
+/*导航条结束*/
+/*介绍开始*/
+div.neirong{
+    width:800px;
+    margin: 0  auto;
+}
+div.liucheng {
+    width: 700px;
+    margin: 0 auto;
+}
+div.liucheng h2{
+    text-align: center;
+}
+div.wenzi{
+    width: 700px;
+    margin:0 auto;
+    border: 2px solid #000000;
+}
+div.wenzi p{
+    width: 600px;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*介绍结束*/
+/*页脚开始*/
+div.yejiao{
+    width: 100%;
+}
+div.yejiao p{
+    margin:0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+/*页脚结束*/
